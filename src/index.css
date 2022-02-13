@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #101820FF;
+}
+
+
+/*HEADING*/
+#header {
+  padding: 20px;
+  background-color: #F2AA4CFF;
+  z-index: 1;
+  margin-bottom: 70px;
+}
+#header-writing {
+  text-align: center;
+  color: #101820FF;
+}
+
+
+/*P*/
+#second-header-writing {
+  color: #F2AA4CFF;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*FORM*/
+#topForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#topForm input {
+  width: 40%;
+  margin: 10px 30%;
+  background: none;
+  border: 3px solid #F2AA4CFF;
+  padding: 14px 0;
+  text-align: center;
+  border-radius: 24px;
+  outline: none;
+  transition: all 0.2s ease;
+  color: white;
+}
+#topForm input:hover {
+  width: 50%;
+  margin: 10px 25%;
+}
+
+
+button {
+  width: 15%;
+  margin: 30px 42.5% 30px 42.5%;
+  cursor: pointer;
+  background: none;
+  border: 3px solid #F2AA4CFF;
+  border-radius: 24px;
+  outline: none;
+  transition: all 0.1s ease;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6d6b6b;
+  height: 50px;
+}
+button:hover {
+  background: #F2AA4CFF;
+}
+
+
+
+/*CONTACTS*/
+.contacts {
+  height: 300px;
+  width: 300px;
+  margin: 10px 30px;
+  background: #F2AA4CFF;
+  border: 3px solid black;
+  color: #9CC3D5FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  transition: all 0.2s ease-out;
+  box-shadow: 0 0 10px 0 rgba(242, 170, 76, 0.5);
+}
+.contacts:hover {
+  box-shadow: 0 0 15px 5px rgba(242, 170, 76, 0.75);
+}
+
+.contacts p {
+  color: #101820FF;
+  font-size: 30px;
+}
+
+
+
+
+/*PEOPLE LIST*/
+#peoplelist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-basis: auto;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  border: 3px solid #F2AA4CFF;
+  min-height: 350px;
+  margin: 0 20px;
+}
+
+#val {
+  margin: 0 15px;
+}
