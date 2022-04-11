@@ -30,7 +30,7 @@ function AddPersonForm(props) {
   return (
     <form id="topForm" onSubmit={handleSubmit} >
       <input type='text' placeholder='add new contact' value={person} onChange={e_handleChange}></input>
-      <input type="text" placeholder="Add new phone" onChange={handleChangePhone} value={phone}></input>     
+      <input type="text" placeholder="Add new phone number" onChange={handleChangePhone} value={phone}></input>     
       <button  type='submit'>ADD</button>
     </form>
   );
